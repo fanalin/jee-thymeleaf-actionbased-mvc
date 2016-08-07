@@ -1,0 +1,15 @@
+<!DOCTYPE html SYSTEM "http://www.thymeleaf.org/dtd/xhtml1-strict-thymeleaf-4.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title th:text="'Hello ' + ${greet.name}">Hello</title>
+</head>
+<body>
+
+    <h2>Title</h2>
+    <p th:text="${greet.greet}">Test paragraph</p>
+    <p th:text="${greet.name}">Test paragraph</p>
+
+
+</body>
+</html>
